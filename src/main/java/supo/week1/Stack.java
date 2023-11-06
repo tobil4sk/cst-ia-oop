@@ -29,4 +29,8 @@ public class Stack<T> {
 		top = top.next;
 		return tmp;
 	}
+	
+	public boolean isEmpty() {
+		return top == null;
+	}
 }
