@@ -83,4 +83,19 @@ class List {
 
 public class Lists {
 
+	public static void test() {
+		List list = new List();
+		System.out.println(list.hasCycles());
+		list.add(3);
+		list.add(2);
+		list.add(1);
+		
+		System.out.println(list.getLength());
+		System.out.println(list.getNth(1));
+		System.out.println(list.getNth(2));
+		System.out.println(list.getNth(3));
+		list.remove(2);
+		
+		System.out.println(list.getLength());
+	}
 }
